@@ -53,7 +53,7 @@ pip install dash pandas plotly
 
 ```bash
 cd Initial\ Implementation
-python Visualisation1.py
+python Visualisation1.py #Visualisation2.py ou Visualisation3.py
 ```
 
 3. Ouvrez votre navigateur web et accédez à l'adresse suivante :
