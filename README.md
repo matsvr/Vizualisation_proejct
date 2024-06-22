@@ -13,7 +13,7 @@ Comment les prénoms évoluent-ils au fil du temps ? Y a-t-il des prénoms qui s
 Y a-t-il un effet régional dans les données ? Certains prénoms sont-ils plus populaires dans certaines régions ? Les prénoms populaires sont-ils généralement populaires dans tout le pays ?
 
 ### Visualisation 3:
-Y a-t-il des effets de genre dans les données ? La popularité des prénoms donnés aux deux sexes évolue-t-elle de manière cohérente ? (Note : cet ensemble de données traite le sexe de manière binaire ; il s'agit d'une simplification qui est utilisée dans ce projet, mais qui n'est généralement pas valable.)
+Y a-t-il des effets de genre dans les données ? La popularité des prénoms donnés aux deux sexes évolue-t-elle de manière cohérente ?
 
 ## Composition du groupe
 
