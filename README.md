@@ -42,7 +42,7 @@ cd Vizualisation_project
 2. Installez les dépendances nécessaires :
 
 ```bash
-pip install dash pandas plotly
+pip install dash pandas plotly holoviews hvplot bokeh wordcloud matplotlib
 ```
 
 ## Utilisation
