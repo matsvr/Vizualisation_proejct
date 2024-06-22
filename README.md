@@ -15,13 +15,11 @@ Y a-t-il un effet régional dans les données ? Certains prénoms sont-ils plus 
 ### Visualisation 3:
 Y a-t-il des effets de genre dans les données ? La popularité des prénoms donnés aux deux sexes évolue-t-elle de manière cohérente ? (Note : cet ensemble de données traite le sexe de manière binaire ; il s'agit d'une simplification qui est utilisée dans ce projet, mais qui n'est généralement pas valable.)
 
-Ce projet se compose de plusieurs parties : dans la première partie, vous esquissez des alternatives de conception pour différentes visualisations qui peuvent aider à répondre à chaque série de questions. Dans la deuxième partie, vous implémentez cette visualisation en utilisant l'un des outils des exercices de laboratoire de la classe. Dans la troisième partie, vous affinerez ces solutions.
-
 ## Prérequis
 
 Avant de commencer, assurez-vous d'avoir les éléments suivants installés :
 
-- Python 3.x
+- Python 3.7 ou une version ultérieure
 - pip (Python package installer)
 
 ## Installation
@@ -29,8 +27,8 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés :
 1. Clonez le repository ou téléchargez les fichiers de projet.
 
 ```bash
-git clone https://github.com/votre-utilisateur/votre-repository.git
-cd votre-repository
+git clone [https://github.com/votre-utilisateur/votre-repository.git](https://github.com/matsvr/Vizualisation_project.git)
+cd Vizualisation_project
 ```
 
 2. Installez les dépendances nécessaires :
@@ -57,12 +55,23 @@ http://127.0.0.1:8050/
 
 ## Structure du Projet
 
-- `app.py` : Le script principal qui contient le code de l'application Dash.
+- `Initial Implementation/` : Contient les premières versions des visualisations.
+- `Refined solution/` : Contient les versions finales et raffinées des visualisations.
+  - `app.py` ou `Viz.py` : Les scripts principaux qui contiennent le code de l'application Dash pour la visualisation.
+- `Sketch/` : Contient les esquisses et les conceptions initiales des visualisations.
 - `dpt2020.csv` : Le fichier CSV contenant les données des prénoms.
+- `departements-avec-outre-mer.geojson` et `departements-version-simplifiee.geojson` : Fichiers GeoJSON utilisés pour les visualisations régionales.
 - `README.md` : Ce fichier, contenant des instructions sur l'installation et l'utilisation du projet.
 
-## Fonctionnalités de la Visualisation 1
+## Fonctionnalités
 
-- **Filtrage par Sexe** : Vous pouvez filtrer les prénoms par sexe (Tous, Garçons, Filles).
-- **Filtrage par Département** : Vous pouvez filtrer les prénoms par département.
-- **Course de Barres** : Visualisation dynamique des prénoms les plus populaires au fil du temps avec une animation de course de barres.
+- **Visualisation 1** : 
+  - Filtrage par Sexe : Vous pouvez filtrer les prénoms par sexe (Tous, Garçons, Filles).
+  - Filtrage par Département : Vous pouvez filtrer les prénoms par département.
+  - Course de Barres : Visualisation dynamique des prénoms les plus populaires au fil du temps avec une animation de course de barres.
+  
+- **Visualisation 2** : 
+  - (À compléter selon les fonctionnalités de la visualisation 2)
+  
+- **Visualisation 3** : 
+  - (À compléter selon les fonctionnalités de la visualisation 3)
