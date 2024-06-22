@@ -51,16 +51,41 @@ pip install dash pandas plotly holoviews hvplot bokeh wordcloud matplotlib
 
 2. Déplacez-vous dans le répertoire `Initial Implementation` et exécutez le script de la visualisation de votre choix `Visualisation1.py` ou `Visualisation2.py` ou `Visualisation3.py` :
 
+3. a) Visualization 1
+
+- Accédez au dossier Initial Implementation/ puis lancez la commande python ci-dessous :
+  
 ```bash
 cd Initial\ Implementation
-python Visualisation1.py #Visualisation2.py ou Visualisation3.py
+python Visualisation1.py
 ```
 
-3. Ouvrez votre navigateur web et accédez à l'adresse suivante :
+- Ouvrez votre navigateur web et accédez à l'adresse suivante :
 
 ```
 http://127.0.0.1:8050/
 ```
+
+3. b) Visualization 2
+
+*À compléter*
+
+3. c) Visualization 3a
+
+- Accédez au dossier Initial Implementation/ :
+  
+```bash
+cd Initial\ Implementation
+```
+- Lancez un serveur Bokeh avec la commande ci-après qui vous permettra d'accéder à la visualisation :
+
+```
+bokeh serve --show Visualization3a.py
+```
+
+3. d) Visualization 3b
+
+*À compléter*
 
 ## Structure du Projet
 
