@@ -65,11 +65,9 @@ http://127.0.0.1:8050/
 
 - `Initial Implementation/` : Contient les premières versions des visualisations.
 - `Refined solution/` : Contient les versions finales et raffinées des visualisations.
-  - `app.py` ou `Viz.py` : Les scripts principaux qui contiennent le code de l'application Dash pour la visualisation.
 - `Sketch/` : Contient les esquisses et les conceptions initiales des visualisations.
 - `dpt2020.csv` : Le fichier CSV contenant les données des prénoms.
 - `departements-avec-outre-mer.geojson` et `departements-version-simplifiee.geojson` : Fichiers GeoJSON utilisés pour les visualisations régionales.
-- `README.md` : Ce fichier, contenant des instructions sur l'installation et l'utilisation du projet.
 
 ## Fonctionnalités
 
