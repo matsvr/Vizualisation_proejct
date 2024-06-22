@@ -47,12 +47,13 @@ pip install dash pandas plotly
 
 ## Utilisation
 
-1. Placez votre fichier `dpt2020.csv` dans le même répertoire que le fichier `app.py`.
+1. Assurez-vous que votre fichier `dpt2020.csv` se trouve dans le répertoire principal du projet.
 
-2. Exécutez le script `app.py` :
+2. Déplacez-vous dans le répertoire `Initial Implementation` et exécutez le script de la visualisation de votre choix `Visualisation1.py` ou `Visualisation2.py` ou `Visualisation3.py` :
 
 ```bash
-python app.py
+cd Initial\ Implementation
+python Visualisation1.py
 ```
 
 3. Ouvrez votre navigateur web et accédez à l'adresse suivante :
