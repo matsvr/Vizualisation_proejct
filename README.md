@@ -35,7 +35,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés :
 1. Clonez le repository ou téléchargez les fichiers de projet.
 
 ```bash
-git clone [https://github.com/votre-utilisateur/votre-repository.git](https://github.com/matsvr/Vizualisation_project.git)
+git clone https://github.com/matsvr/Vizualisation_project.git
 cd Vizualisation_project
 ```
 
