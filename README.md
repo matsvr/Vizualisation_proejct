@@ -15,7 +15,7 @@ Y a-t-il un effet régional dans les données ? Certains prénoms sont-ils plus 
 ### Visualisation 3:
 Y a-t-il des effets de genre dans les données ? La popularité des prénoms donnés aux deux sexes évolue-t-elle de manière cohérente ? (Note : cet ensemble de données traite le sexe de manière binaire ; il s'agit d'une simplification qui est utilisée dans ce projet, mais qui n'est généralement pas valable.)
 
-## Participants au Projet
+## Composition du groupe
 
 - Louis Lemoine
 - Victor Rivière
