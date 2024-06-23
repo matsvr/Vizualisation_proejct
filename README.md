@@ -114,4 +114,8 @@ bokeh serve --show Visualization3a.py
   - Puis sélectionner le département voulu (si cela est nécessaire), celui-ci étant initialisé sur l'option "Tous les départements"
 
 - **Visualisation 3b** :
-  - (À compléter selon les fonctionnalités de la visualisation 3b)
+  - Cette visualisation permet d'afficher les prénoms les plus communs pour chaque sexe en fonction de l'année
+  - La visualisation est un 'BarPolar' scindé en 2, identifié par des couleurs bleu et orange pour différencier les sexes. Plus la barre est longue plus le prénom associé a été attribué lors de l'année représentée.
+  - Il suffit de cliquer sur play afin de visualiser une années après l'autre à la manière d'un diaporama. On voit donc l'évolution des attributions des noms au fil des années.
+  - On peut aussi sélectionner une année précise à l'aide du 'slider' en dessous du graph.
+
