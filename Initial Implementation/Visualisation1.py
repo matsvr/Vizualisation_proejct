@@ -7,7 +7,7 @@ import plotly.express as px
 from dash.dependencies import Input, Output
 
 # Charger les données avec le bon séparateur
-df = pd.read_csv('dpt2020.csv', sep=';')
+df = pd.read_csv('Names hints/dpt2020.csv', sep=';')
 
 # Convertir les colonnes en numérique, en gérant les erreurs
 df['annais'] = pd.to_numeric(df['annais'], errors='coerce')
@@ -75,7 +75,8 @@ app.layout = html.Div(style={'backgroundColor': '#f8f9fa', 'height': '100vh'}, c
 @app.callback(
     Output('bar-race-chart', 'figure'),
     [Input('sex-filter', 'value'),
-     Input('department-filter', 'value')]
+     Input('department-filter', 'value'),
+     Input('year-slider', 'value')]
 )
 def update_bar_race(selected_sex, selected_departments):
     filtered_df = df
@@ -136,7 +137,7 @@ def update_bar_race(selected_sex, selected_departments):
                 type='buttons',
                 showactive=False,
                 y=1,
-                x=0.15,
+                x=1.15,
                 xanchor='right',
                 yanchor='top',
                 pad=dict(t=0, r=10),
