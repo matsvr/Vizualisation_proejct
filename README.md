@@ -19,7 +19,7 @@ Y a-t-il des effets de genre dans les données ? La popularité des prénoms don
 
 - Louis Lemoine
 - Victor Rivière
-- Matthieu Sauveur
+- Mathieu Sauveur
 - Salimatou Traore
 - Yuchen Xia
 
@@ -83,6 +83,10 @@ cd Initial\ Implementation
 bokeh serve --show Visualization3a.py
 ```
 
+- Il est aussi possible de lancer la visualisation dans un Notebook Jupyter en lançant le fichier Visualization3a.ipynb
+
+- Dans ce Notebook vous pouvez soit générer une visualisation intéractive (Partie 1) ou encore créer une animation GIF de la visualisation en question sur un certain nombre d'années prédéfini (Partie 2) 
+
 3. d) Visualization 3b
 
 *À compléter*
@@ -105,5 +109,11 @@ bokeh serve --show Visualization3a.py
 - **Visualisation 2** : 
   - (À compléter selon les fonctionnalités de la visualisation 2)
   
-- **Visualisation 3** : 
-  - (À compléter selon les fonctionnalités de la visualisation 3)
+- **Visualisation 3a** :
+  - Cette visualisation permet de pouvoir afficher les prénoms les plus communs pour chaque sexe en fonction de l'année et du département
+  - La visualisation s'oriente autour de deux nuages de mots (un pour les prénoms masculins et un autre pour les prénoms féminins) dans lesquels plus un nom est commun plus celui-ci aura une police de grande taille
+  - On doit donc d'abord sélectionner l'année voulue
+  - Puis sélectionner le département voulu (si cela est nécessaire), celui-ci étant initialisé sur l'option "Tous les départements"
+
+- **Visualisation 3b** :
+  - (À compléter selon les fonctionnalités de la visualisation 3b)
