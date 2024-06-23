@@ -105,7 +105,13 @@ bokeh serve --show Visualization3a.py
 
 2. d) Visualization 3b
 
-*À compléter*
+- Accédez au dossier Initial Implementation/ :
+  
+```bash
+cd Initial\ Implementation
+```
+
+- Exécutez les cellules du Notebook Jupyter Visualization3b.ipynb
 
 ## Structure du Projet
 
