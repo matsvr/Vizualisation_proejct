@@ -7,7 +7,7 @@ import plotly.express as px
 from dash.dependencies import Input, Output
 
 # Charger les données avec le bon séparateur
-df = pd.read_csv('Names hints/dpt2020.csv', sep=';')
+df = pd.read_csv('dpt2020.csv', sep=';')
 
 # Convertir les colonnes en numérique, en gérant les erreurs
 df['annais'] = pd.to_numeric(df['annais'], errors='coerce')
