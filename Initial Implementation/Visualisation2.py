@@ -8,7 +8,7 @@ import pandas as pd
 import geopandas as gpd
 
 
-df = pd.read_csv('dpt2020.csv', sep=';')
+df = pd.read_csv('Initial Implementation/dpt2020.csv', sep=';')
 
 df.drop(df[df.preusuel == '_PRENOMS_RARES'].index, inplace=True)
 df.drop(df[df.dpt == 'XX'].index, inplace=True)
@@ -21,7 +21,7 @@ df = df[(df['year'] >= 1900) & (df['year'] <= 2000)]
 df.sample(5)
 
 
-dpt_df = gpd.read_file('departements-version-simplifiee.geojson')
+dpt_df = gpd.read_file('Initial Implementation/departements-version-simplifiee.geojson')
 
 dpt_df.sample(5)
 
