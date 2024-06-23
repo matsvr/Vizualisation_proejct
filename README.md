@@ -47,11 +47,9 @@ pip install dash pandas plotly holoviews hvplot bokeh wordcloud matplotlib
 
 ## Utilisation
 
-1. Assurez-vous que votre fichier `dpt2020.csv` se trouve dans le répertoire principal du projet.
+1. Déplacez-vous dans le répertoire `Initial Implementation` :
 
-2. Déplacez-vous dans le répertoire `Initial Implementation` et exécutez le script de la visualisation de votre choix `Visualisation1.py` ou `Visualisation2.py` ou `Visualisation3.py` :
-
-3. a) Visualization 1
+2. a) Visualization 1
 
 - Accédez au dossier Initial Implementation/ puis lancez la commande python ci-dessous :
   
@@ -66,11 +64,11 @@ python Visualisation1.py
 http://127.0.0.1:8050/
 ```
 
-3. b) Visualization 2
+2. b) Visualization 2
 
 *À compléter*
 
-3. c) Visualization 3a
+2. c) Visualization 3a
 
 - Accédez au dossier Initial Implementation/ :
   
@@ -87,7 +85,7 @@ bokeh serve --show Visualization3a.py
 
 - Dans ce Notebook vous pouvez soit générer une visualisation intéractive (Partie 1) ou encore créer une animation GIF de la visualisation en question sur un certain nombre d'années prédéfini (Partie 2) 
 
-3. d) Visualization 3b
+2. d) Visualization 3b
 
 *À compléter*
 
