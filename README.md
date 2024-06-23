@@ -15,7 +15,7 @@ Y a-t-il un effet régional dans les données ? Certains prénoms sont-ils plus 
 ### Visualisation 3:
 Y a-t-il des effets de genre dans les données ? La popularité des prénoms donnés aux deux sexes évolue-t-elle de manière cohérente ?
 
-## Composition du groupe
+## Composition du groupe R
 
 - Louis Lemoine
 - Victor Rivière
