@@ -66,7 +66,25 @@ http://127.0.0.1:8050/
 
 2. b) Visualization 2
 
-*À compléter*
+- Accédez au dossier Initial Implementation/ puis lancez la commande python ci-dessous :
+  
+```bash
+cd Initial\ Implementation
+python Visualisation1.py
+```
+
+- Ouvrez votre navigateur web et accédez à l'adresse suivante :
+
+```
+http://127.0.0.1:8055/
+```
+- Pour la Visualisation avec les DOM-TOM
+```
+http://127.0.0.1:8056/
+```
+
+
+
 
 2. c) Visualization 3a
 
@@ -105,7 +123,10 @@ bokeh serve --show Visualization3a.py
   - Course de Barres : Visualisation dynamique des prénoms les plus populaires au fil du temps avec une animation de course de barres.
   
 - **Visualisation 2** : 
-  - (À compléter selon les fonctionnalités de la visualisation 2)
+  - Cette visualisation nous permet de pouvoir afficher les prénoms les plus populaires pour chacuns des départements. 
+  - Un filtrage par année avec une liste déroulante, la carte se met à jour pour afficher les départements colorés en fonction du nombre d'occurrences du prénom le plus fréquent.
+  - Un modal apparait lors du passage de la souris sur le département, listant (nom du département, code du département, prénom le plus représenté et son nombre)
+  - Un tableau listant les 50 prénoms les plus représenter pour l'année séléectionnée.
   
 - **Visualisation 3a** :
   - Cette visualisation permet de pouvoir afficher les prénoms les plus communs pour chaque sexe en fonction de l'année et du département

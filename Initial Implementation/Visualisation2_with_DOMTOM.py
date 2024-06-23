@@ -9,7 +9,7 @@ import geopandas as gpd
 from dash import dcc, html
 
 
-df = pd.read_csv('Initial Implementation/dpt2020.csv', sep=';')
+df = pd.read_csv('dpt2020.csv', sep=';')
 
 df.drop(df[df.preusuel == '_PRENOMS_RARES'].index, inplace=True)
 df.drop(df[df.dpt == 'XX'].index, inplace=True)
@@ -19,7 +19,7 @@ df.columns = ['sex', 'name', 'year', 'dept', 'count']
 df['year'] = pd.to_numeric(df['year'], errors='coerce').astype('Int64')
 df = df[(df['year'] >= 1900) & (df['year'] <= 2000)]
 
-dpt_df = gpd.read_file('Initial Implementation/departements-avec-outre-mer.geojson')
+dpt_df = gpd.read_file('departements-avec-outre-mer.geojson')
 
 name_df = df
 
