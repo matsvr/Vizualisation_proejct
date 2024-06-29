@@ -126,6 +126,7 @@ cd Initial\ Implementation
 - **Visualisation 1** : 
   - Filtrage par Sexe : Vous pouvez filtrer les prénoms par sexe (Tous, Garçons, Filles).
   - Filtrage par Département : Vous pouvez filtrer les prénoms par département.
+  - Filtrage par Popularité : Vous pouvez filtrer les prénoms par popularité (Les plus populaires, Les moins populaires).
   - Course de Barres : Visualisation dynamique des prénoms les plus populaires au fil du temps avec une animation de course de barres.
   
 - **Visualisation 2** : 
